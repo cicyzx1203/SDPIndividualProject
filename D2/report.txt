@@ -1,0 +1,132 @@
+JUnit version 4.12
+...E...E.E.E........E..E.E...E.E..E.E.E.E.....
+Time: 0.127
+There were 13 failures:
+1) textsummaryTest3(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #5. 
+Arguments used: [-c, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit14534331686363612235/junit4295629743826914469.tmp]
+Original File: It's a test file2.
+second line. 
+Throws Exception: ArrayOutOfBoundsException
+2) textsummaryTest6(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #4. 
+Arguments used: [-d, 0, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit7460288252524936306/junit14112736209270994746.tmp]
+Original File: It's a test file2.
+second line. 
+Throws Exception: NullPointerException
+3) textsummaryTest7(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #9. 
+Arguments used: [-l, 100, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit15509980632011384151/junit11336450318756011373.tmp]
+Original File: short1
+short2
+longest line1
+longest line2
+longest line3
+middle one 
+Throws Exception: short2
+longest line3
+middle one
+4) textsummaryTest8(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #9. 
+Arguments used: [-s, 100, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit3289933784939317539/junit193828316465834849.tmp]
+Original File: short1
+short2
+longest line1
+longest line2
+longest line3
+middle one 
+Throws Exception: short2
+longest line3
+middle one
+5) textsummaryTest16(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #8. 
+Arguments used: [-s, -1, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit9491835238270257956/junit10286140312764399301.tmp]
+Original File: It's a test file2.
+second line. 
+Throws Exception: 
+6) textsummaryTest18(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #8. 
+Arguments used: [-s, abc, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit2067651528221355119/junit13578374936422091084.tmp]
+Original File: short1
+short2
+longest line1
+longest line2
+longest line3
+middle one 
+Throws Exception: 
+7) textsummaryTest19(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #8. 
+Arguments used: [-l, abc, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit11355526208287438836/junit3724515313050986604.tmp]
+Original File: short1
+short2
+longest line1
+longest line2
+longest line3
+middle one 
+Throws Exception: 
+8) textsummaryTest22(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #7. 
+Arguments used: [-c, the, -2, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit4802383239414041093/junit4307335405149003330.tmp]
+Original File: the file5
+6300 the 6300
+another line
+6300 is the course 
+New File Content: 1 the file5
+1 6300 the 6300
+1 another line
+1 6300 is the course 
+Output: 
+9) textsummaryTest23(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #1. 
+Arguments used: [-c, 6300, 0, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit812528892943402078/junit14575143443116288880.tmp]
+Original File: the file5
+6300 the 6300
+another line
+6300 is the course 
+Throws Exception: ArrayOutOfBoundsException
+10) textsummaryTest25(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #2. 
+Arguments used: [-d, 1000, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit7545027319694602235/junit18212021647266652310.tmp]
+Original File: the file5
+6300 the 6300
+another line
+6300 is the course 
+New File Content: the file5
+6300 the 6300
+another line
+6300 is the course 
+Output: Fails with NoSuchElementException
+11) textsummaryTest26(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #4. 
+Arguments used: [-d, 0, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit6144631903506390709/junit4572111203025760765.tmp]
+Original File: It's a test file2.
+second line. 
+Throws Exception: NullPointerException
+12) textsummaryTest27(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #9. 
+Arguments used: [-l, 56, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit12099524896920080753/junit17198529574855129109.tmp]
+Original File: short1
+short2
+longest line1
+longest line2
+longest line3
+middle one 
+Throws Exception: short2
+longest line3
+middle one
+13) textsummaryTest28(edu.gatech.seclass.textsummary.MyMainTest)
+edu.gatech.seclass.textsummary.SDPBugException: You found Bug #9. 
+Arguments used: [-s, 43, /var/folders/5h/7t9njwt93pndzgx1ml9h75y00000gn/T/junit11039706796556383155/junit13704044628137199554.tmp]
+Original File: short1
+short2
+longest line1
+longest line2
+longest line3
+middle one 
+Throws Exception: short2
+longest line3
+middle one
+
+FAILURES!!!
+Tests run: 33,  Failures: 13
+
