@@ -1,5 +1,5 @@
 # TextSummary
-In this project I used Java to develop a **command-line** tool called textsummary to help anaylize a text file.
+In this project I used Java to develop, implement and text a **command-line** tool called textsummary to help anaylize a text file.
 ## Synopsis
 textsummary option \<filename>
 where option can be **zero or more** of
